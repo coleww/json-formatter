@@ -1,0 +1,19 @@
+{
+  "name": "json-statham",
+  "version": "1.0.0",
+  "description": "prettify some JSON",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -o bundle.js",
+    "watch": "watchify index.js -o bundle.js --debug --verbose"
+  },
+  "keywords": [
+    "JSON"
+  ],
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "watchify": "^2.4.0"
+  }
+}

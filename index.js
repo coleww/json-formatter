@@ -1,10 +1,11 @@
 var format = require('json-nice');
 
-var input = document.querySelector(".formattee");
+var body = document.querySelector("body");
 var output = document.querySelector(".formatted");
 
-input.addEventListener('keyup', function(){
-  var json = JSON.parse(input.value);
+body.addEventListener('paste', function(e){
+  var data = e.clipboardData.getData('text/plain');
+  var json = JSON.parse(data);
   var fmtJson = format(json);
   output.innerHTML = fmtJson;
 });

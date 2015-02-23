@@ -1,7 +1,7 @@
 #json formatting as a service
 --------------------------------------
 
-![example magic]("./json-example.gif")
+![example magic](./json-example.gif)
 
 Listens for paste events, grabs the text contents of the clipboard, and tries to `JSON.parse` and format that text with [json-nice](https://github.com/JerrySievert/json). If you try to paste anything other than valid JSON, it will fail horribly.
 

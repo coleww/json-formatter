@@ -14,6 +14,7 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "^9.0.3",
-    "watchify": "^2.4.0"
+    "watchify": "^2.4.0",
+    "json-nice": "^1.0.1"
   }
 }

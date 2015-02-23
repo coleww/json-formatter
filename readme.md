@@ -1,5 +1,7 @@
-#json formatting as a service
+### json formatting as a service
 --------------------------------------
+
+[Try it out](http://coleww.github.io/json-formatter/)
 
 ![example magic](./json-example.gif)
 

@@ -6,5 +6,5 @@ document.body.addEventListener('paste', function(e){
   var data = e.clipboardData.getData('text/plain');
   var json = JSON.parse(data);
   var fmtJson = format(json);
-  output.innerHTML = fmtJson;
+  output.textContent = fmtJson;
 });
